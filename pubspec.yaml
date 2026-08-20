@@ -1,0 +1,26 @@
+name: ayanami
+description: Ayanami 本地优先漫画阅读器的首个 Android MVP
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_js: ^0.8.7
+  http: ^1.5.0
+  path_provider: ^2.1.5
+  pointycastle: ^3.9.1
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sources/manwa.js
